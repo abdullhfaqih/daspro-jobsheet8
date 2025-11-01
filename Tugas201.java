@@ -9,6 +9,7 @@ public class Tugas201 {
 
     if (n < 3) {
       System.out.println("Nilai n minimal 3!");
+      sc.close();
       return;
     }
 
@@ -23,5 +24,6 @@ public class Tugas201 {
       }
       System.out.println();
     }
+    sc.close();
   }
 }
